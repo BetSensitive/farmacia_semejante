@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace farmacia_semejante
 {
-    public partial class Form1 : Form
+    public partial class agregar_articulo : Form
     {
-        public Form1()
+        public agregar_articulo()
         {
             InitializeComponent();
         }
