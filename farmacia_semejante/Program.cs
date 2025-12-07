@@ -16,7 +16,7 @@ namespace farmacia_semejante
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ingreso());
+            Application.Run(new inventario());
         }
     }
 }

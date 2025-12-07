@@ -22,7 +22,7 @@ namespace farmacia_semejante
             if (txtUsuario.Text == "Enzo" && txtPassword.Text == "12983")
             {
                 // Reemplaza 'Form2' por el nombre del formulario destino en tu proyecto
-                admin_articulos destino = new admin_articulos();
+                menu_principal destino = new menu_principal();
                 this.Hide();      // Usa Close() si quieres cerrar definitivamente este formulario
                 destino.Show();   // ShowDialog() si quieres modal
               

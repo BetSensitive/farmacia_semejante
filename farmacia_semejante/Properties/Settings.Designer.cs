@@ -26,11 +26,22 @@ namespace farmacia_semejante.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Const\\Desktop\\AAAAA\\bd-far" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\\Users\\Const\\Desktop\\AAAAA\\bd-far" +
             "macia-semejante.accdb")]
         public string bd_farmacia_semejanteConnectionString {
             get {
                 return ((string)(this["bd_farmacia_semejanteConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Const\\Desktop\\AAAAA\\bd-far" +
+            "macia-semejante.accdb")]
+        public string bd_farmacia_semejanteConnectionString1 {
+            get {
+                return ((string)(this["bd_farmacia_semejanteConnectionString1"]));
             }
         }
     }
